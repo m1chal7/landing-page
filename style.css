@@ -5,6 +5,9 @@ body {
 div {
     border: 0px solid grey;
 }
+h1, h2 {
+    margin: 0;
+}
 .full-container {
     display: flex;
     align-items: center;
@@ -24,7 +27,7 @@ div {
     justify-content: space-between;
 
 }
-section, header {
+section, header, footer {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -74,7 +77,7 @@ flex: 1;
 }
 
 .features h2 {
-    padding-bottom: 20px;
+    padding-bottom: 40px;
     font-size: 36px;
     font-weight: 800;
     text-align: center;
@@ -114,4 +117,13 @@ section.quote .container {
     color: #1f2937;
     font-weight: 800;
     font-size: 36px;
+}
+
+
+footer {
+    height: 120px;
+    display: flex;
+    align-items: center;
+    color: white;
+    background: #1f2937;
 }
