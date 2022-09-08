@@ -71,6 +71,14 @@ section.hero .container {
 .hero-left {
 flex: 1;
 }
+.hero-button {
+    border: 1px solid #3882f6;
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
+    padding: 10px 25px;
+    background: #3882f6
+ }
 .hero-right{
     flex:1.2;
     text-align: center;
@@ -126,4 +134,28 @@ footer {
     align-items: center;
     color: white;
     background: #1f2937;
+}
+.cta-box {
+    background: #3882f6;
+    padding: 50px 120px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+}
+.cta-left {
+    flex:1;
+    color: white;
+
+}
+.cta-main-text {
+    font-size: 22px;
+    font-weight: 700;
+}
+.cta-button {
+   border: 1px solid white;
+   color: white;
+   font-weight: 700;
+   border-radius: 5px;
+   padding: 10px 25px;
+   background: #3882f6;
 }
